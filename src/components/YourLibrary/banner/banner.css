@@ -1,0 +1,39 @@
+@keyframes indicateDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  
+  .indicate-down {
+    animation: indicateDown 1s infinite;
+    width: 100px;
+    height: auto;
+  }
+  
+
+.text-3d {
+    position: relative;
+    color: #ffc44f;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000,
+                 2px 2px 0 #000,
+                 3px 3px 0 #000,
+                 4px 4px 0 #000,
+                 5px 5px 0 #000,
+                 6px 6px 0 #000,
+                 7px 7px 0 #000,
+                 8px 8px 0 #000,
+                 9px 9px 0 #000,
+                 10px 10px 0 #000;
+  }
+
+  .text{
+    color: rgb(250, 217, 204);
+  }
+
+  
+  

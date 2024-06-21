@@ -1,0 +1,10 @@
+.border-text {
+    font-size: 2rem; 
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(250, 164, 117); 
+    text-stroke: 2px rgb(0, 0, 0);
+  }
+
+  
+  
